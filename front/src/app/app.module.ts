@@ -19,7 +19,9 @@ import { RedDirective } from './directives/red.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -42,6 +44,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatListModule,
     MatCardModule,
     MatButtonModule,
+    MatSnackBarModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
